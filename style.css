@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+}
+.card {
+    width: 350px;
+    min-height: 100px;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+}
+
+ .title {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+ .description {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.action {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+ .valid {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: rgb(56, 3, 248);
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+.ptaq{
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
